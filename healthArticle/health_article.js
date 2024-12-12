@@ -48,6 +48,5 @@ xhr.onload = function () {
     var articleDiv = document.createElement('div');
     articleDiv.classList.add('article');
     articleDiv.appendChild(title);
-    xhr.send();
 }
-
+xhr.send();
